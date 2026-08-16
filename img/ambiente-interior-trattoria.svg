@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1000" viewBox="0 0 1400 1000">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3f4a2b"/>
+      <stop offset="100%" stop-color="#1f2417"/>
+    </linearGradient>
+    <pattern id="p" width="40" height="40" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="40" height="40" fill="none"/>
+      <line x1="0" y1="0" x2="0" y2="40" stroke="#c94f3d" stroke-width="0.5" opacity="0.15"/>
+    </pattern>
+  </defs>
+  <rect width="1400" height="1000" fill="url(#g)"/>
+  <rect width="1400" height="1000" fill="url(#p)"/>
+  <rect x="2" y="2" width="1396" height="996" fill="none" stroke="#d4af6a" stroke-width="2" stroke-dasharray="10 8" opacity="0.5"/>
+  <text x="50%" y="46%" text-anchor="middle" font-family="Georgia, serif" font-size="50" fill="#f3ead9" opacity="0.9">FOTO PENDIENTE</text>
+  <text x="50%" y="56%" text-anchor="middle" font-family="Arial, sans-serif" font-size="33" fill="#d4af6a">Interior de la trattoria, mesas y ambiente</text>
+</svg>

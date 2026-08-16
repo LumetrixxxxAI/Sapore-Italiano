@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sapore Italiano — Restaurante Italiano en Coín (Málaga)</title>
+<meta name="description" content="Restaurante italiano en Coín (Málaga). Pizzas de masa crujiente y pasta fresca, producto italiano de verdad y buen precio. Reserva en Pl. de la Alameda, 32.">
+<meta name="keywords" content="restaurante italiano en Coín, pizza en Coín, pasta Coín, trattoria Coín, restaurante italiano Málaga">
+<link rel="canonical" href="https://saporeitaliano.example/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="restaurant">
+<meta property="og:title" content="Sapore Italiano — Restaurante Italiano en Coín (Málaga)">
+<meta property="og:description" content="Pizzas de masa crujiente y pasta fresca. Auténtica cocina italiana en el corazón de Coín.">
+<meta property="og:image" content="img/og-image.svg">
+<meta property="og:locale" content="es_ES">
+
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+
+<!-- Fuentes -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+
+<!-- Schema.org Restaurant -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": "Sapore Italiano",
+  "servesCuisine": "Italiana",
+  "priceRange": "€€",
+  "telephone": "+34637068182",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Pl. de la Alameda, 32",
+    "addressLocality": "Coín",
+    "addressRegion": "Málaga",
+    "postalCode": "29100",
+    "addressCountry": "ES"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+      "opens": "16:00",
+      "closes": "23:30"
+    }
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.7",
+    "reviewCount": "277"
+  }
+}
+</script>
+</head>
+<body class="no-js">
+
+<!-- Preloader -->
+<div id="preloader" aria-hidden="true">
+  <span class="pl-mark">Sapore Italiano</span>
+  <span class="pl-line"></span>
+  <span class="pl-tag">Trattoria en Coín</span>
+</div>
+
+<!-- Cursor custom (desktop) -->
+<div class="cursor-dot" id="cursorDot"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- Header -->
+<header class="site-header" id="siteHeader">
+  <div class="container">
+    <a href="#inicio" class="brand">
+      <span class="monogram">SI</span>
+      <span>Sapore <strong>Italiano</strong></span>
+    </a>
+
+    <nav class="main-nav">
+      <ul>
+        <li><a href="#cocina" data-nav>Cocina</a></li>
+        <li><a href="#carta" data-nav>Carta</a></li>
+        <li><a href="#especialidades" data-nav>Especialidades</a></li>
+        <li><a href="#ambiente" data-nav>Ambiente</a></li>
+        <li><a href="#opiniones" data-nav>Opiniones</a></li>
+        <li><a href="#ubicacion" data-nav>Ubicación</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-ctas" style="display:flex; align-items:center; gap:14px;">
+      <a href="#reservas" class="btn btn-outline">Contacto</a>
+      <a href="https://www.thefork.es/" target="_blank" rel="noopener" class="btn btn-primary">Reservar</a>
+      <button class="burger" id="burgerBtn" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- Mobile nav -->
+<nav class="mobile-nav" id="mobileNav">
+  <a href="#cocina" data-nav>Cocina</a>
+  <a href="#carta" data-nav>Carta</a>
+  <a href="#especialidades" data-nav>Especialidades</a>
+  <a href="#ambiente" data-nav>Ambiente</a>
+  <a href="#opiniones" data-nav>Opiniones</a>
+  <a href="#ubicacion" data-nav>Ubicación</a>
+  <a href="https://www.thefork.es/" target="_blank" rel="noopener" class="btn btn-primary">Reservar</a>
+</nav>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero-media">
+      <img src="img/hero-pizza-estrella.svg" alt="Pizza artesanal recién horneada en Sapore Italiano, Coín" width="1920" height="1080">
+    </div>
+    <div class="hero-content container">
+      <div class="hero-badge">★ 4,7 · +270 opiniones en Google</div>
+      <h1 class="reveal">Auténtica cocina <em>italiana</em><br>en el corazón de Coín</h1>
+      <p class="lead reveal">Masa crujiente, pasta fresca y producto italiano de verdad. La trattoria de Coín, para comer allí o llevarte a casa.</p>
+      <div class="hero-ctas reveal">
+        <a href="https://www.thefork.es/" target="_blank" rel="noopener" class="btn btn-primary">Reservar mesa</a>
+        <a href="#carta" class="btn btn-outline">Ver la carta</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Descubre más</span>
+      <span class="line"><span></span></span>
+    </div>
+  </section>
+
+  <!-- COCINA -->
+  <section class="cocina" id="cocina">
+    <div class="container">
+      <div class="cocina-grid">
+        <div class="cocina-text">
+          <div class="section-label reveal"><span class="num">01</span> Nuestra cocina</div>
+          <h2 class="section-title reveal">Producto italiano, <em>hecho con calma</em></h2>
+          <p class="reveal">En Sapore Italiano hacemos las cosas como se hacen en Italia: masa de pizza con fermentación lenta para que quede crujiente por fuera y ligera por dentro, y pasta fresca preparada cada día. Nada de atajos.</p>
+          <p class="reveal">Trabajamos con harinas, quesos y embutidos importados directamente de Italia, combinados con producto local de temporada. El resultado: sabor auténtico, precio honesto y un ambiente cercano donde te sientes como en casa.</p>
+          <div class="stat-row">
+            <div class="stat reveal">
+              <span class="num" data-count="8">0</span>
+              <span class="cap">Años en Coín</span>
+            </div>
+            <div class="stat reveal">
+              <span class="num" data-count="30" data-suffix="+">0</span>
+              <span class="cap">Platos en carta</span>
+            </div>
+            <div class="stat reveal">
+              <span class="num" data-count="4.7" data-decimal="true">0</span>
+              <span class="cap">Valoración Google</span>
+            </div>
+          </div>
+        </div>
+        <div class="cocina-media reveal">
+          <div class="frame">
+            <img src="img/cocina-horno-lena.svg" alt="Horno y cocina de Sapore Italiano en Coín" loading="lazy" width="1200" height="900">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CARTA -->
+  <section class="carta" id="carta">
+    <div class="container">
+      <div class="section-label reveal"><span class="num">02</span> La carta</div>
+      <h2 class="section-title reveal">Sabores que <em>enamoran</em></h2>
+      <p class="section-sub reveal">Una selección honesta de la cocina italiana: antipasti, pizzas de horno, pasta fresca, postres caseros y una buena carta de vinos. Precios orientativos — consulta la carta completa actualizada.</p>
+
+      <div class="menu-tabs reveal">
+        <button class="menu-tab is-active" data-tab="antipasti">Antipasti</button>
+        <button class="menu-tab" data-tab="pizzas">Pizzas</button>
+        <button class="menu-tab" data-tab="pastas">Pastas</button>
+        <button class="menu-tab" data-tab="postres">Postres</button>
+        <button class="menu-tab" data-tab="bebidas">Bebidas y vinos</button>
+      </div>
+
+      <div class="menu-panels">
+        <div class="menu-panel is-active" data-panel="antipasti">
+          <div class="menu-list">
+            <div class="menu-item reveal">
+              <div class="menu-item-left">
+                <span class="menu-item-name">Bruschetta al pomodoro</span>
+                <span class="menu-item-dots"></span>
+              </div>
+              <span class="menu-item-price">6,50 €</span>
+            </div>
+            <div class="menu-item reveal">
+              <div class="menu-item-left">
+                <span class="menu-item-name">Tabla de embutidos italianos</span>
+                <span class="menu-item-dots"></span>
+              </div>
+              <span class="menu-item-price">12,90 €</span>
+            </div>
+            <div class="menu-item reveal">
+              <div class="menu-item-left">
+                <span class="menu-item-name">Burrata con tomate confitado</span>
+                <span class="menu-item-dots"></span>
+              </div>
+              <span class="menu-item-price">9,50 €</span>
+            </div>
+            <div class="menu-item reveal">
+              <div class="menu-item-left">
+                <span class="menu-item-name">Arancini de setas</span>
+                <span class="menu-item-dots"></span>
+              </div>
+              <span class="menu-item-price">7,90 €</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-panel" data-panel="pizzas">
+          <div class="menu-list">
+            <div class="menu-item reveal">
+              <div class="menu-item-left">
+                <span class="menu-item-name">Margherita</span>
+                <span class="menu-item-dots"></span>
+              </div>
+              <span class="menu-item-price">8,90 €</span>
+            </div>
+            <div class="menu-item reveal">
+              <div class="menu-item-left">
+                <span class="menu-item-name">Quattro Formaggi</span>
+                <span class="menu-item-dots"></span>
+              </div>
+              <span class="menu-item-price">11,50 €</span>
+            </div>
+            <div class="menu-item reveal">
+              <div class="menu-item-left">
+                <span class="menu-item-name">Diavola (picante)</span>
+                <span class="menu-item-dots"></span>
+              </div>
+              <span class="menu-item-price">10,90 €</span>
+            </div>
+            <div class="menu-item reveal">
+              <div class="menu-item-left">
+                <span class="menu-item-name">Prosciutto e funghi</span>
+                <span class="menu-item-dots"></span>
+              </div>
+              <span class="menu-item-price">11,90 €</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-panel" data-panel="pastas">
+          <div class="menu-list">
+            <div class="menu-item reveal">
+              <div class="menu-item-left">
+                <span class="menu-item-name">Spaghetti alle vongole</span>
+                <span class="menu-item-dots"></span>
+              </div>
+              <span class="menu-item-price">13,90 €</span>
+            </div>
+            <div class="menu-item reveal">
+              <div class="menu-item-left">
+                <span class="menu-item-name">Tagliatelle al tartufo</span>
+                <span class="menu-item-dots"></span>
+              </div>
+              <span class="menu-item-price">14,50 €</span>
+            </div>
+            <div class="menu-item reveal">
+              <div class="menu-item-left">
+                <span class="menu-item-name">Ravioli de ricotta y espinacas</span>
+                <span class="menu-item-dots"></span>
+              </div>
+              <span class="menu-item-price">12,50 €</span>
+            </div>
+            <div class="menu-item reveal">
+              <div class="menu-item-left">
+                <span class="menu-item-name">Lasagna della casa</span>
+                <span class="menu-item-dots"></span>
+              </div>
+              <span class="menu-item-price">11,90 €</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-panel" data-panel="postres">
+          <div class="menu-list">
+            <div class="menu-item reveal">
+              <div class="menu-item-left">
+                <span class="menu-item-name">Tiramisú casero</span>
+                <span class="menu-item-dots"></span>
+              </div>
+              <span class="menu-item-price">5,50 €</span>
+            </div>
+            <div class="menu-item reveal">
+              <div class="menu-item-left">
+                <span class="menu-item-name">Panna cotta de frutos rojos</span>
+                <span class="menu-item-dots"></span>
+              </div>
+              <span class="menu-item-price">5,50 €</span>
+            </div>
+            <div class="menu-item reveal">
+              <div class="menu-item-left">
+                <span class="menu-item-name">Cannoli sicilianos</span>
+                <span class="menu-item-dots"></span>
+              </div>
+              <span class="menu-item-price">5,90 €</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-panel" data-panel="bebidas">
+          <div class="menu-list">
+            <div class="menu-item reveal">
+              <div class="menu-item-left">
+                <span class="menu-item-name">Copa de vino Chianti</span>
+                <span class="menu-item-dots"></span>
+              </div>
+              <span class="menu-item-price">4,50 €</span>
+            </div>
+            <div class="menu-item reveal">
+              <div class="menu-item-left">
+                <span class="menu-item-name">Prosecco</span>
+                <span class="menu-item-dots"></span>
+              </div>
+              <span class="menu-item-price">5,00 €</span>
+            </div>
+            <div class="menu-item reveal">
+              <div class="menu-item-left">
+                <span class="menu-item-name">Agua con gas / sin gas</span>
+                <span class="menu-item-dots"></span>
+              </div>
+              <span class="menu-item-price">2,20 €</span>
+            </div>
+            <div class="menu-item reveal">
+              <div class="menu-item-left">
+                <span class="menu-item-name">Refrescos</span>
+                <span class="menu-item-dots"></span>
+              </div>
+              <span class="menu-item-price">2,50 €</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carta-cta reveal">
+        <a href="#" class="btn btn-outline" style="color:var(--cream); border-color:rgba(246,239,225,0.4);">Ver carta completa (PDF)</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ESPECIALIDADES -->
+  <section class="especialidades" id="especialidades">
+    <div class="container">
+      <div class="section-label reveal"><span class="num">03</span> Especialidades</div>
+      <h2 class="section-title reveal">Nuestros <em>platos estrella</em></h2>
+      <p class="section-sub reveal">Los favoritos de nuestros clientes, los que no pueden faltar en tu visita.</p>
+
+      <div class="dish-grid">
+        <div class="dish-card reveal">
+          <img src="img/especialidad-pizza-quattro-formaggi.svg" alt="Pizza Quattro Formaggi de Sapore Italiano" loading="lazy" width="900" height="900">
+          <div class="dish-info">
+            <h3>Quattro Formaggi</h3>
+            <span class="price">11,50 €</span>
+          </div>
+        </div>
+        <div class="dish-card reveal">
+          <img src="img/especialidad-spaghetti-vongole.svg" alt="Spaghetti alle vongole de Sapore Italiano" loading="lazy" width="900" height="900">
+          <div class="dish-info">
+            <h3>Spaghetti Vongole</h3>
+            <span class="price">13,90 €</span>
+          </div>
+        </div>
+        <div class="dish-card reveal">
+          <img src="img/especialidad-pasta-fresca.svg" alt="Pasta fresca hecha a mano en Sapore Italiano" loading="lazy" width="900" height="900">
+          <div class="dish-info">
+            <h3>Ravioli Ricotta</h3>
+            <span class="price">12,50 €</span>
+          </div>
+        </div>
+        <div class="dish-card reveal">
+          <img src="img/especialidad-tiramisu.svg" alt="Tiramisú casero de Sapore Italiano" loading="lazy" width="900" height="900">
+          <div class="dish-info">
+            <h3>Tiramisú casero</h3>
+            <span class="price">5,50 €</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AMBIENTE -->
+  <section class="ambiente" id="ambiente">
+    <div class="container">
+      <div class="section-label reveal"><span class="num">04</span> Ambiente</div>
+      <h2 class="section-title reveal">Como estar en <em>una trattoria</em> de verdad</h2>
+
+      <div class="ambiente-grid">
+        <div class="ambiente-media reveal">
+          <img src="img/ambiente-interior-trattoria.svg" alt="Interior acogedor de Sapore Italiano en Coín" loading="lazy" width="1400" height="1000">
+        </div>
+        <div class="ambiente-copy">
+          <div class="ambiente-media reveal" style="margin-bottom:0;">
+            <img src="img/ambiente-terraza.svg" alt="Fachada y terraza de Sapore Italiano en Coín" loading="lazy" width="1400" height="1000">
+          </div>
+          <p class="reveal">Un rincón cálido en Coín donde el tiempo pasa despacio. Mesas cercanas, luz cálida y ese aroma a pan recién horneado que solo tiene una trattoria de verdad.</p>
+          <a href="#reservas" class="btn btn-ghost reveal" style="align-self:flex-start;">Reserva tu mesa</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OPINIONES -->
+  <section class="opiniones" id="opiniones">
+    <div class="container">
+      <div class="section-label reveal"><span class="num">05</span> Opiniones</div>
+      <h2 class="section-title reveal">Lo que dicen de <em>nosotros</em></h2>
+
+      <div class="review-track reveal">
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="quote">"La pizza más crujiente que he probado en Coín. Masa fina, buen producto y un precio que no se ve todos los días."</p>
+          <div class="review-author">
+            <span class="review-avatar">M</span>
+            <div>
+              <div class="name">María G.</div>
+              <div class="src">Google · hace 2 semanas</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="quote">"Trato cercano y comida como en Italia. La pasta fresca se nota que es del día. Repetiremos seguro."</p>
+          <div class="review-author">
+            <span class="review-avatar">J</span>
+            <div>
+              <div class="name">Javier R.</div>
+              <div class="src">Google · hace 1 mes</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="quote">"Buen precio, raciones generosas y todo con mucho sabor. El tiramisú es una pasada. Muy recomendable."</p>
+          <div class="review-author">
+            <span class="review-avatar">L</span>
+            <div>
+              <div class="name">Laura P.</div>
+              <div class="src">Google · hace 3 semanas</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="opiniones-link reveal">
+        <a href="https://www.google.com/search?q=Sapore+Italiano+Co%C3%ADn" target="_blank" rel="noopener" class="btn btn-outline" style="color:var(--cream); border-color:rgba(246,239,225,0.4);">Ver todas en Google →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESERVAS / CONTACTO -->
+  <section class="reservas" id="reservas">
+    <div class="container">
+      <div class="section-label reveal" style="justify-content:center;"><span class="num">06</span> Reservas</div>
+      <h2 class="section-title reveal">Tu mesa te <em>espera</em></h2>
+      <p class="section-sub reveal" style="margin-left:auto; margin-right:auto; text-align:center;">Reserva online en pocos segundos o llámanos directamente. Te esperamos con la mesa lista.</p>
+
+      <div class="reservas-card reveal">
+        <h3>Reserva con TheFork</h3>
+        <p>Elige día y hora, y confirma tu mesa al instante.</p>
+        <div class="reservas-ctas">
+          <a href="https://www.thefork.es/" target="_blank" rel="noopener" class="btn btn-primary">Reservar ahora</a>
+          <a href="https://wa.me/34637068182" target="_blank" rel="noopener" class="btn btn-outline">WhatsApp</a>
+        </div>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-item reveal">
+          <span class="eyebrow">Teléfono</span>
+          <a href="tel:+34637068182">637 06 81 82</a>
+        </div>
+        <div class="contact-item reveal">
+          <span class="eyebrow">Dirección</span>
+          <span class="value">Pl. de la Alameda, 32, Coín</span>
+        </div>
+        <div class="contact-item reveal">
+          <span class="eyebrow">Horario</span>
+          <span class="value">Todos los días, desde las 16:00 <!-- confirmar horario exacto de cierre --></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- UBICACION -->
+  <section class="ubicacion" id="ubicacion">
+    <div class="container">
+      <div class="section-label reveal"><span class="num">07</span> Ubicación</div>
+      <h2 class="section-title reveal">Encuéntranos en <em>Coín</em></h2>
+
+      <div class="map-frame reveal">
+        <iframe
+          src="https://www.google.com/maps?q=Pl.+de+la+Alameda,+32,+29100+Co%C3%ADn,+M%C3%A1laga&output=embed"
+          allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Mapa de Sapore Italiano en Coín">
+        </iframe>
+      </div>
+
+      <div class="ubicacion-meta reveal">
+        <div class="info">
+          <p><strong>Sapore Italiano</strong></p>
+          <p>Pl. de la Alameda, 32 — 29100 Coín (Málaga)</p>
+          <p>Abierto todos los días desde las 16:00</p>
+        </div>
+        <a href="https://www.google.com/maps/dir/?api=1&destination=Pl.+de+la+Alameda,+32,+29100+Co%C3%ADn,+M%C3%A1laga" target="_blank" rel="noopener" class="btn btn-primary">Cómo llegar</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-col">
+        <div class="footer-brand">
+          <span class="monogram">SI</span>
+          <strong>Sapore Italiano</strong>
+        </div>
+        <p>Auténtica cocina italiana en el corazón de Coín. Masa crujiente, pasta fresca y producto de verdad.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Contacto</h4>
+        <ul>
+          <li><a href="tel:+34637068182">637 06 81 82</a></li>
+          <li><a href="https://wa.me/34637068182" target="_blank" rel="noopener">WhatsApp</a></li>
+          <li>Pl. de la Alameda, 32, Coín</li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="legal/aviso-legal.html">Aviso legal</a></li>
+          <li><a href="legal/privacidad.html">Política de privacidad</a></li>
+          <li><a href="legal/cookies.html">Política de cookies</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> Sapore Italiano. Todos los derechos reservados.</span>
+      <div class="social-row">
+        <a href="#" target="_blank" rel="noopener" aria-label="Facebook">f</a>
+      </div>
+      <span>Diseñado por <a href="#" target="_blank" rel="noopener">Lumetrix</a></span>
+    </div>
+  </div>
+</footer>
+
+<!-- WhatsApp flotante -->
+<a href="https://wa.me/34637068182" target="_blank" rel="noopener" class="whatsapp-float" aria-label="Escríbenos por WhatsApp">
+  <svg viewBox="0 0 24 24"><path d="M17.5 14.4c-.3-.1-1.7-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.1-1.2-.5-2.3-1.5-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.3-.5.1-.2 0-.4 0-.5C10.1 9 9.6 7.8 9.4 7.3c-.2-.5-.4-.4-.5-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.2s1 2.6 1.1 2.7c.1.2 2 3 4.8 4.2.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 1.9-1.4.2-.7.2-1.2.2-1.3-.1-.1-.3-.2-.6-.4zM12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.6 1.4 5.1L2 22l5.1-1.3c1.4.8 3.1 1.3 4.9 1.3 5.5 0 10-4.5 10-10S17.5 2 12 2z"/></svg>
+</a>
+
+<!-- Cookies -->
+<div class="cookie-banner" id="cookieBanner">
+  <p>Usamos cookies propias y de terceros para mejorar tu experiencia. Puedes aceptarlas o rechazar las no esenciales. Más información en nuestra <a href="legal/cookies.html" style="text-decoration:underline;">política de cookies</a>.</p>
+  <button class="btn btn-ghost" id="cookieDecline" style="border-color: rgba(246,239,225,0.4); color: var(--cream);">Rechazar</button>
+  <button class="btn btn-primary" id="cookieAccept">Aceptar</button>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
