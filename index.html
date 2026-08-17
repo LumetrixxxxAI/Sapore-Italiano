@@ -698,40 +698,48 @@
       <div class="section-label reveal"><span class="num">05</span> Opiniones</div>
       <h2 class="section-title reveal">Lo que dicen de <em>nosotros</em></h2>
 
-      <div class="review-track reveal">
-        <div class="review-card">
-          <div class="review-stars">★★★★★</div>
-          <p class="quote">"La pizza más crujiente que he probado en Coín. Masa fina, buen producto y un precio que no se ve todos los días."</p>
-          <div class="review-author">
-            <span class="review-avatar">M</span>
-            <div>
-              <div class="name">María G.</div>
-              <div class="src">Google · hace 2 semanas</div>
+      <div class="review-carousel reveal">
+        <button class="review-arrow review-arrow-prev" id="reviewPrev" aria-label="Reseña anterior">
+          <svg viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="review-track" id="reviewTrack">
+          <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="quote">"La pizza más crujiente que he probado en Coín. Masa fina, buen producto y un precio que no se ve todos los días."</p>
+            <div class="review-author">
+              <span class="review-avatar">M</span>
+              <div>
+                <div class="name">María G.</div>
+                <div class="src">Google · hace 2 semanas</div>
+              </div>
+            </div>
+          </div>
+          <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="quote">"Trato cercano y comida como en Italia. La pasta fresca se nota que es del día. Repetiremos seguro."</p>
+            <div class="review-author">
+              <span class="review-avatar">J</span>
+              <div>
+                <div class="name">Javier R.</div>
+                <div class="src">Google · hace 1 mes</div>
+              </div>
+            </div>
+          </div>
+          <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="quote">"Buen precio, raciones generosas y todo con mucho sabor. El tiramisú es una pasada. Muy recomendable."</p>
+            <div class="review-author">
+              <span class="review-avatar">L</span>
+              <div>
+                <div class="name">Laura P.</div>
+                <div class="src">Google · hace 3 semanas</div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="review-card">
-          <div class="review-stars">★★★★★</div>
-          <p class="quote">"Trato cercano y comida como en Italia. La pasta fresca se nota que es del día. Repetiremos seguro."</p>
-          <div class="review-author">
-            <span class="review-avatar">J</span>
-            <div>
-              <div class="name">Javier R.</div>
-              <div class="src">Google · hace 1 mes</div>
-            </div>
-          </div>
-        </div>
-        <div class="review-card">
-          <div class="review-stars">★★★★★</div>
-          <p class="quote">"Buen precio, raciones generosas y todo con mucho sabor. El tiramisú es una pasada. Muy recomendable."</p>
-          <div class="review-author">
-            <span class="review-avatar">L</span>
-            <div>
-              <div class="name">Laura P.</div>
-              <div class="src">Google · hace 3 semanas</div>
-            </div>
-          </div>
-        </div>
+        <button class="review-arrow review-arrow-next" id="reviewNext" aria-label="Reseña siguiente">
+          <svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
       </div>
 
       <div class="opiniones-link reveal">

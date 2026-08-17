@@ -138,6 +138,29 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  /* ---------------- Reviews carousel ---------------- */
+  const reviewTrack = document.getElementById('reviewTrack');
+  const reviewPrev = document.getElementById('reviewPrev');
+  const reviewNext = document.getElementById('reviewNext');
+  if (reviewTrack && reviewPrev && reviewNext) {
+    const scrollByCard = (dir) => {
+      const card = reviewTrack.querySelector('.review-card');
+      const amount = card ? card.getBoundingClientRect().width + 22 : 300;
+      reviewTrack.scrollBy({ left: dir * amount, behavior: 'smooth' });
+    };
+    reviewPrev.addEventListener('click', () => scrollByCard(-1));
+    reviewNext.addEventListener('click', () => scrollByCard(1));
+
+    const updateArrows = () => {
+      const max = reviewTrack.scrollWidth - reviewTrack.clientWidth - 2;
+      reviewPrev.disabled = reviewTrack.scrollLeft <= 0;
+      reviewNext.disabled = reviewTrack.scrollLeft >= max;
+    };
+    reviewTrack.addEventListener('scroll', updateArrows, { passive: true });
+    updateArrows();
+    window.addEventListener('resize', updateArrows);
+  }
+
   /* ---------------- Cookies banner ---------------- */
   const cookieBanner = document.getElementById('cookieBanner');
   const cookieChoice = localStorage.getItem('sapore-cookies');
