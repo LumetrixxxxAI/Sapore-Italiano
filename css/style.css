@@ -540,12 +540,16 @@ body.nav-open { overflow: hidden; }
   border-bottom: 1px solid rgba(21,19,15,0.18);
 }
 .menu-item-name {
+  display: block;
   font-family: var(--font-display);
   font-weight: 600;
   font-size: 1.25rem;
   color: var(--ink);
 }
 .menu-item-desc {
+  display: block;
+  font-family: var(--font-body);
+  font-weight: 400;
   font-size: 0.9rem;
   color: rgba(21,19,15,0.6);
   margin-top: 6px;
