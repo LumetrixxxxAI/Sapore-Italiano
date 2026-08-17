@@ -44,9 +44,21 @@
   "openingHoursSpecification": [
     {
       "@type": "OpeningHoursSpecification",
-      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+      "dayOfWeek": ["Monday","Tuesday","Thursday"],
       "opens": "16:00",
-      "closes": "23:30"
+      "closes": "23:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Wednesday","Friday"],
+      "opens": "16:00",
+      "closes": "24:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Saturday","Sunday"],
+      "opens": "13:30",
+      "closes": "24:00"
     }
   ],
   "aggregateRating": {
@@ -87,7 +99,7 @@
 
     <div class="header-ctas" style="display:flex; align-items:center; gap:14px;">
       <a href="#reservas" class="btn btn-outline">Contacto</a>
-      <a href="https://www.thefork.es/" target="_blank" rel="noopener" class="btn btn-primary">Reservar</a>
+      <a href="https://www.thefork.es/restaurante/sapore-italiano-r858231/menu" target="_blank" rel="noopener" class="btn btn-primary">Reservar</a>
       <button class="burger" id="burgerBtn" aria-label="Abrir menú">
         <span></span><span></span><span></span>
       </button>
@@ -103,7 +115,7 @@
   <a href="#ambiente" data-nav>Ambiente</a>
   <a href="#opiniones" data-nav>Opiniones</a>
   <a href="#ubicacion" data-nav>Ubicación</a>
-  <a href="https://www.thefork.es/" target="_blank" rel="noopener" class="btn btn-primary">Reservar</a>
+  <a href="https://www.thefork.es/restaurante/sapore-italiano-r858231/menu" target="_blank" rel="noopener" class="btn btn-primary">Reservar</a>
 </nav>
 
 <main>
@@ -118,7 +130,7 @@
       <h1 class="reveal">Auténtica cocina <em>italiana</em><br>en el corazón de Coín</h1>
       <p class="lead reveal">Masa crujiente, pasta fresca y producto italiano de verdad. La trattoria de Coín, para comer allí o llevarte a casa.</p>
       <div class="hero-ctas reveal">
-        <a href="https://www.thefork.es/" target="_blank" rel="noopener" class="btn btn-primary">Reservar mesa</a>
+        <a href="https://www.thefork.es/restaurante/sapore-italiano-r858231/menu" target="_blank" rel="noopener" class="btn btn-primary">Reservar mesa</a>
         <a href="#carta" class="btn btn-outline">Ver la carta</a>
       </div>
     </div>
@@ -726,7 +738,7 @@
         <h3>Reserva con TheFork</h3>
         <p>Elige día y hora, y confirma tu mesa al instante.</p>
         <div class="reservas-ctas">
-          <a href="https://www.thefork.es/" target="_blank" rel="noopener" class="btn btn-primary">Reservar ahora</a>
+          <a href="https://www.thefork.es/restaurante/sapore-italiano-r858231/menu" target="_blank" rel="noopener" class="btn btn-primary">Reservar ahora</a>
           <a href="https://wa.me/34637068182" target="_blank" rel="noopener" class="btn btn-outline">WhatsApp</a>
         </div>
       </div>
@@ -740,9 +752,17 @@
           <span class="eyebrow">Dirección</span>
           <span class="value">Pl. de la Alameda, 32, Coín</span>
         </div>
-        <div class="contact-item reveal">
+        <div class="contact-item contact-item-schedule reveal">
           <span class="eyebrow">Horario</span>
-          <span class="value">Todos los días, desde las 16:00 <!-- confirmar horario exacto de cierre --></span>
+          <ul class="schedule-list">
+            <li><span>Lunes</span><span>16:00–23:00</span></li>
+            <li><span>Martes</span><span>16:00–23:00</span></li>
+            <li><span>Miércoles</span><span>16:00–24:00</span></li>
+            <li><span>Jueves</span><span>16:00–23:00</span></li>
+            <li><span>Viernes</span><span>16:00–24:00</span></li>
+            <li><span>Sábado</span><span>13:30–24:00</span></li>
+            <li><span>Domingo</span><span>13:30–24:00</span></li>
+          </ul>
         </div>
       </div>
     </div>
@@ -765,7 +785,7 @@
         <div class="info">
           <p><strong>Sapore Italiano</strong></p>
           <p>Pl. de la Alameda, 32 — 29100 Coín (Málaga)</p>
-          <p>Abierto todos los días desde las 16:00</p>
+          <p>Lun, mar y jue: 16:00–23:00 · Mié y vie: 16:00–24:00 · Sáb y dom: 13:30–24:00</p>
         </div>
         <a href="https://www.google.com/maps/dir/?api=1&destination=Pl.+de+la+Alameda,+32,+29100+Co%C3%ADn,+M%C3%A1laga" target="_blank" rel="noopener" class="btn btn-primary">Cómo llegar</a>
       </div>
