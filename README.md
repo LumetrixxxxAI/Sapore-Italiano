@@ -10,25 +10,25 @@ HTML, CSS y JS puros (sin build ni dependencias de instalación). Anima con GSAP
 index.html
 css/style.css
 js/main.js
-img/              -> fotos (algunas son placeholders, ver abajo)
+img/              -> fotos reales del restaurante, optimizadas en .jpg
 legal/            -> aviso legal, privacidad, cookies
 ```
 
-## Fotos pendientes
+## Fotos
 
-Los siguientes archivos en `img/` son **placeholders** (SVG con el texto "FOTO PENDIENTE") y deben sustituirse por fotografías reales del restaurante, manteniendo el mismo nombre de archivo o actualizando la ruta en `index.html`:
+Todas las fotos son reales, tomadas en Sapore Italiano y optimizadas para web (JPG, calidad ~80%):
 
-- `hero-pizza-estrella.svg` — pizza o pasta estrella para el hero (plano cenital, muy apetitosa)
-- `cocina-horno-lena.svg` — horno de leña o cocina en acción
-- `especialidad-pizza-quattro-formaggi.svg` — pizza cuatro quesos
-- `especialidad-spaghetti-vongole.svg` — spaghetti alle vongole
-- `especialidad-pasta-fresca.svg` — pasta fresca hecha a mano
-- `especialidad-tiramisu.svg` — tiramisú casero
-- `ambiente-interior-trattoria.svg` — interior del local
-- `ambiente-terraza.svg` — fachada o terraza exterior
-- `og-image.svg` — imagen para compartir en redes sociales (recomendado: JPG/PNG 1200x630 real)
+- `hero-pizza-estrella.jpg` — pizza con burrata y prosciutto (hero)
+- `cocina-horno-lena.jpg` — pizza con burrata (sección "Nuestra cocina")
+- `especialidad-pizza-bbq.jpg` — pizza especial BBQ de la casa
+- `especialidad-spaghetti-mare.jpg` — spaghetti frutti di mare
+- `especialidad-carpaccio-atun.jpg` — carpaccio de atún
+- `especialidad-tiramisu.jpg` — tiramisú casero
+- `ambiente-interior-trattoria.jpg` — interior/barra del local
+- `ambiente-terraza.jpg` — fachada exterior de noche
+- `og-image.jpg` — imagen para compartir en redes (recorte 1200x630 del hero)
 
-Recomendación: exportar las fotos reales en `.jpg` optimizado (calidad 75-80%, ancho máx. 1920px para el hero, 1000px para el resto) y actualizar las extensiones `.svg` por `.jpg` en `index.html`.
+Si en el futuro se quieren añadir más fotos (horno en acción, comensales, terraza de día, etc.) o cambiar alguna, basta con sustituir el archivo correspondiente manteniendo el nombre, o actualizar la ruta en `index.html`.
 
 ## Datos a confirmar
 
